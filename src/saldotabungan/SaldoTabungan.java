@@ -8,6 +8,11 @@ package saldotabungan;
 /**
  *
  * @author Beta Three
+ * NAMA     : ADRIAN MAIDIYANGSA
+ * NIM      : 10119029
+ * KELAS    : IF-1
+ * NO SOAL  : 2
+ * TANGGAL  : 20 FEBRUARI 2021
  */
 public class SaldoTabungan {
 
@@ -16,14 +21,8 @@ public class SaldoTabungan {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int i = 1;
-        int saldoAwal = 100000;
-        while (i <= 5) {
-            saldoAwal = saldoAwal + 500;
-            System.out.print("Saldo di bulan ke-" + i + " Rp.");
-            i++;
-            System.out.println(saldoAwal);
-        }
+        UASIF110119029ADRIANMAIDIYANGSANO2 d = new UASIF110119029ADRIANMAIDIYANGSANO2();
+        d.TampilSaldo();
     }
 
 }
